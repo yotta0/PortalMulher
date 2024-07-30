@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/chat.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="chat-header-title">
+                <h2>Chatbot</h2>
+            </div>
+        </div>
+        <div class="chat-body">
+            <div class="chat-content" id="chat-content">
+                <!-- Example messages -->
+                <div class="chat-message bot">
+                    <div class="chat-message-text">Olá! Como posso ajudar você hoje?</div>
+                </div>
+                <div class="chat-message user">
+                    <div class="chat-message-text">Olá, preciso de informações sobre serviços de apoio.</div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <form action="#" class="chat-input-form" id="chat-input-form">
+                <textarea rows="1" placeholder="Digite sua mensagem..." class="chat-input" id="chat-input"></textarea>
+                <button type="submit" class="chat-submit"><i class='bx bx-send'></i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
