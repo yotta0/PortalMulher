@@ -16,7 +16,11 @@
         <div class="row">
             <h2 class="section-heading">Central de Informações e Suporte para Mulheres</h2>
         </div>
-        <div class="row">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite o serviço ou informação que você procura...">
+            <button type="button" id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="service-list" class="row">
             <div class="column">
                 <div class="card">
                     <div class="icon-wrapper">
@@ -59,5 +63,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
