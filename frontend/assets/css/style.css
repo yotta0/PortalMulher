@@ -5,28 +5,53 @@
   font-family: "Poppins", sans-serif;
 }
 
+html, body {
+  height: 100%; /* Garantir que o HTML e o body cubram a altura total da tela */
+}
+
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: grid;
   place-items: center;
   background-color: #fce4ec; /* Rosa claro para o fundo da página */
 }
 
+.section-heading {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #e91e63;
+  margin-bottom: 1.5em;
+  text-align: center;
+  position: relative;
+}
+
+.section-heading::before {
+  content: ""; /* Adiciona um conteúdo vazio antes do título */
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background-color: #e91e63;
+  border-radius: 2px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 1em;
 }
 
 .column {
-  width: 100%;
+  flex: 1 1 calc(100% - 2em); /* Garante que as colunas ocupem 100% da largura com um espaçamento */
+  max-width: calc(100% - 2em); /* Garante que a coluna não ultrapasse a largura disponível */
   padding: 0 1em 1em 1em;
   text-align: center;
 }
 
 .card {
-  width: 100%;
-  height: 100%;
   padding: 2em 1.5em;
   background: linear-gradient(#ffffff 50%, #e91e63 50%); /* Rosa para o fundo das caixas */
   background-size: 100% 200%;
@@ -35,10 +60,14 @@ section {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #1f194c;
   margin: 1em 0;
@@ -46,9 +75,10 @@ h3 {
 
 p {
   color: #575a7b;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  margin: 0.5em 0;
 }
 
 .icon-wrapper {
@@ -79,33 +109,84 @@ p {
 }
 
 .column a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-
 
 .card:hover p {
   color: #f0f0f0;
 }
 
+.phone-link {
+  color: #575a7b;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.phone-link i {
+  font-size: 18px;
+  margin-right: 0.5em;
+}
+
+.phone-link:hover {
+  color: #e91e63;
+}
+
+.copy-btn {
+  background-color: transparent;
+  border: 2px solid #575a7b;
+  color: #575a7b;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3em 0.7em;
+  margin-left: 1em;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.copy-btn i {
+  font-size: 14px;
+  margin-right: 0.3em;
+}
+
+.copy-btn:hover {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.copy-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.3);
+}
+
+.card:hover .copy-btn {
+  background-color: #575a7b;
+  color: #ffffff;
+  border: 2px solid #575a7b;
+}
+
 @media screen and (min-width: 768px) {
   section {
-    padding: 0 2em;
+      padding: 0 2em;
   }
 
   .column {
-    flex: 0 50%;
-    max-width: 50%;
+      flex: 0 1 45%;
+      max-width: 45%;
   }
 }
 
 @media screen and (min-width: 992px) {
   section {
-    padding: 1em 3em;
+      padding: 1em 3em;
   }
 
   .column {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+      flex: 0 1 30%;
+      max-width: 30%;
   }
 }
