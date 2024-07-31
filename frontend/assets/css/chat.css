@@ -1,7 +1,5 @@
 /* Reset and Global Styles */
-*,
-*::before,
-*::after {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -126,6 +124,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.chat-message.bot a {
+    color: #e91e63; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.chat-message.bot a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
 
 /* Breakpoints */
 @media screen and (max-width: 576px) {
