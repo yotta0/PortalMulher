@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes - Secretaria das Mulheres</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/faq.css" />
+</head>
+<body>
+    <div class="faq-container">
+        <h2 class="section-heading">Perguntas Frequentes</h2>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite sua dúvida..." onkeyup="filterFAQs()">
+            <button type="button" id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="faq-list"></div> <!-- Container para as FAQs dinâmicas -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/faq.js"></script> <!-- Script para carregar as FAQs -->
+</body>
+</html>
