@@ -1,17 +1,43 @@
 version: '3.9'
 
 services:
-  postgres:
+  web:
+    build: ./backend
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./.env
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app/frontend
+
+  db:
     image: postgres:latest
     ports:
       - 5432:5432
     volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_PASSWORD=teste
-      - POSTGRES_USER=teste
-      - POSTGRES_DB=teste
-  python:
-    build: .
-    volumes:
-      - .:/app
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    networks:
+      - mynetwork
+
+volumes:
+  postgres_data:
+
+networks:
+    mynetwork:
+      driver: bridge
