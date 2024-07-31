@@ -12,9 +12,12 @@ html, body {
 section {
   min-height: 100vh;
   width: 100%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fce4ec; /* Rosa claro para o fundo da página */
+  text-align: center;
 }
 
 .section-heading {
@@ -22,7 +25,6 @@ section {
   font-weight: 700;
   color: #e91e63;
   margin-bottom: 1.5em;
-  text-align: center;
   position: relative;
 }
 
@@ -92,7 +94,7 @@ section {
   background: linear-gradient(#ffffff 50%, #e91e63 50%); /* Rosa para o fundo das caixas */
   background-size: 100% 200%;
   background-position: 0 2.5%;
-  border-radius: 8px; /* Cantos arredondados */
+  border-radius: 8px;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.5s;
