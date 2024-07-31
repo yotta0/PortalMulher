@@ -20,3 +20,18 @@ class Contacts(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class News(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    published_date = models.DateTimeField(auto_now_add=True)
+    link = models.URLField(blank=True, null=True)
+    image_link = models.TextField(blank=True, null=True)
+
+    class Meta:
+        db_table = 'news'
+        ordering = ['-published_date']  # Ordena as notícias da mais recente para a mais antiga
+
+    def __str__(self):
+        return self.title
