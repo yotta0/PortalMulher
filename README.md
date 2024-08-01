@@ -43,6 +43,8 @@ Obs: Caso use windows, não é necessario instalar o docker-compose, pois o dock
 
    ```bash
    git clone https://github.com/yotta0/PortalMulher.git
+   ```
+   ```bash
    cd PortalMulher
    ```
 2. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente
