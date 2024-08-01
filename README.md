@@ -53,6 +53,7 @@ Obs: Caso use windows, não é necessario instalar o docker-compose, pois o dock
    cp .env.example .env
    ```
    obs: estamos utilizando a porta 5432 e 8000, 3000 por padrão para o banco de dados, backend e frontend respectivamente.
+   caso queira mudar a porta, a unica que não recomendamos mudar é a porta 8000 do backend, pois o frontend está configurado para acessar o backend na porta 8000.
 
 3. **Inicie os contêineres** (aviso: o build pode demorar um pouco)
 
@@ -62,7 +63,7 @@ Obs: Caso use windows, não é necessario instalar o docker-compose, pois o dock
 o build é utilizado para criar a imagem do projeto, e o
 -d é utilizado para rodar o projeto em background.
 
-4. **Acesse o projeto em `http://localhost:3000`**
+4. **Acesse o projeto em `http://localhost:3000` ou a porta que você configurou na env**
 
 Obs: Algumas dados iniciais já foram inseridos no banco de dados, afim de facilitar a visualização do projeto.
 
