@@ -27,10 +27,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-7%$0r5xqj3x3zqy0@%7@k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # URL do seu front-end
+    f"http://localhost:{os.environ.get('FRONT_END_PORT')}",
 ]
 
 # Application definition
