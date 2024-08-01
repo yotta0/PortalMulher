@@ -61,4 +61,5 @@ o build é utilizado para criar a imagem do projeto, e o
 -d é utilizado para rodar o projeto em background.
 
 4. **Acesse o projeto em `http://localhost:3000`**
+
 Obs: Algumas dados iniciais já foram inseridos no banco de dados, afim de facilitar a visualização do projeto.
