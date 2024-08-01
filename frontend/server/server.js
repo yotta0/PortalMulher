@@ -5,8 +5,6 @@ const dotenv = require('dotenv');
 // Load environment variables from .env file located at /app
 dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
-// Print all environment variables (useful for debugging)
-console.log(process.env);
 
 // Initialize the Express app
 const app = express();
