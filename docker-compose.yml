@@ -18,14 +18,16 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:3000"
+      - "${FRONT_END_PORT}:${FRONT_END_PORT}"
+    env_file:
+      - ./.env
     volumes:
       - ./frontend:/app/frontend
 
   db:
     image: postgres:latest
     ports:
-      - 5432:5432
+      - ${DB_PORT}:5432
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
