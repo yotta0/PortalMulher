@@ -63,3 +63,10 @@ o build é utilizado para criar a imagem do projeto, e o
 4. **Acesse o projeto em `http://localhost:3000`**
 
 Obs: Algumas dados iniciais já foram inseridos no banco de dados, afim de facilitar a visualização do projeto.
+
+
+
+### A seguir alguns screenshots do projeto
+![image](https://github.com/user-attachments/assets/8e6c941a-e34a-45d1-8673-a5425cacbaa6)
+
+![image](https://github.com/user-attachments/assets/374d5e7c-e4a9-487b-bc91-5f11f5858257)
