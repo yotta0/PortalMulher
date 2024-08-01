@@ -51,6 +51,7 @@ Obs: Caso use windows, não é necessario instalar o docker-compose, pois o dock
    cp .env.example .env
    ```
    Caso deseje, você pode alterar as variáveis de ambiente no arquivo `.env` para personalizar o projeto.
+   obs: estamos utilizando a porta 5432 e 8000, 3000 por padrão para o banco de dados, backend e frontend respectivamente.
 
 3. **Inicie os contêineres** (aviso: o build pode demorar um pouco)
 
