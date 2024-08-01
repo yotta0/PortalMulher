@@ -1,0 +1,255 @@
+[
+{
+  "model": "core.contacts",
+  "pk": 5,
+  "fields": {
+    "name": "Casa da Mulher Brasileira - Fortaleza",
+    "description": " ",
+    "phone": "558531082950",
+    "email": "ddmfortaleza@policiacivil.ce.gov.br",
+    "address": "R. Tabuleiro do Norte, s/n - Couto Fernandes",
+    "service_type": "support"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 6,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Caucaia",
+    "description": " ",
+    "phone": "558531017926",
+    "email": "ddmcaucaia@policiacivil.ce.gov.br",
+    "address": "R. Porcina Leite, 113 - Parque Soledade",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 7,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Crato",
+    "description": " ",
+    "phone": "58831021250",
+    "email": "ddmcrato@policiacivil.ce.gov.br",
+    "address": "R. Dom Quintino, 704 - Centro",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 8,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Iguatu",
+    "description": " ",
+    "phone": "88835819454",
+    "email": "ddmiguatu@policiacivil.ce.gov.br",
+    "address": "Av. Monsenhor Coelho - São Sebastião",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 9,
+  "fields": {
+    "name": "Casa da Mulher Cearense - Sobral",
+    "description": " ",
+    "phone": "88999153463",
+    "email": "ddmsobral@policiacivil.ce.gov.br",
+    "address": "Av. Monsenhor Aloísio Pinho, s/n - Gerardo",
+    "service_type": "support"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 10,
+  "fields": {
+    "name": "Casa da Mulher Cearense - Quixadá",
+    "description": " ",
+    "phone": "",
+    "email": "casadamulhercearense.quixada@mulheres.ce.gov.br",
+    "address": "Rua Luis Barbosa da Silva - Planalto Renasces",
+    "service_type": "support"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 11,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Pacatuba",
+    "description": " ",
+    "phone": "55833845820",
+    "email": "ddmpacatuba@policiacivil.ce.gov.br",
+    "address": "Av. Marginal Nordeste, s/n - Conj. Jereissati 3",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 12,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Maracanaú",
+    "description": " ",
+    "phone": "5533717835",
+    "email": "ddmmaracanau@policiacivil.ce.gov.br",
+    "address": "Av. Padre José Holanda do Vale, 1961 - Cagado",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 13,
+  "fields": {
+    "name": "Casa da Mulher Cearense - Juazeiro do Norte",
+    "description": " ",
+    "phone": "8831021102",
+    "email": "ddmjuazeiro@policiacivil.ce.gov.br",
+    "address": "Av. Pe. Cícero, 4501, São José",
+    "service_type": "support"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 14,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Icó",
+    "description": " ",
+    "phone": "8835615551",
+    "email": "ddmico@policiacivil.ce.gov.br",
+    "address": "R. Padre José Alves Macedo, 963, Centro",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.contacts",
+  "pk": 15,
+  "fields": {
+    "name": "Delegacia da Defesa da Mulher - Quixadá",
+    "description": " ",
+    "phone": "8834128082",
+    "email": "ddquixada@policiacivil.ce.gov.br",
+    "address": "Rua Vicente Albano de Sousa, 2072 - Jardim Monolitos",
+    "service_type": "emergency"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 1,
+  "fields": {
+    "title": "Primeiras mulheres se formam no campo de treinamento do Corpo de Fuzileiros Navais do Brasil",
+    "description": "O primeiro grupo de recrutas femininas brasileiras marcham em fila para uma passagem e revisão, em frente à bandeira nacional do Brasil.",
+    "published_date": "2024-07-30T00:00:00Z",
+    "link": "https://g1.globo.com",
+    "image_link": "https://dialogo-americas.com/wp-content/uploads/2024/07/BRA-Marine-Corps-First-Women-1536x1024.jpg"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 2,
+  "fields": {
+    "title": "Desafios das mulheres empreendedoras | ASN Ceará",
+    "description": "A pesquisa informa ainda que 42% das empreendedoras brasileiras pesquisadas já presenciaram situações de preconceito contra outra mulher.",
+    "published_date": "2024-03-11T00:00:00Z",
+    "link": "https://www.sebrae.com.br",
+    "image_link": "https://ce.agenciasebrae.com.br/wp-content/uploads/sites/7/2022/06/Joaquim-Cartaxo.jpeg"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 3,
+  "fields": {
+    "title": "Memorial Maria da Penha será implementado em Fortaleza/CE — Ministério das Mulheres",
+    "description": "A pedido do Ministério das Mulheres, governo do Ceará irá transformar residência da ativista pelos direitos das mulheres em memorial.",
+    "published_date": "2024-06-30T00:00:00Z",
+    "link": "https://www.gov.br",
+    "image_link": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2024/junho/memorial-maria-da-penha-sera-implementado-em-fortaleza-ce/mm_site-carrossel-20.png/@@images/3518c1dc-bbbd-4257-acee-51215f4d8d8a.png"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 4,
+  "fields": {
+    "title": "Estados e cidades terão plano de combate à violência contra mulher, aprova Senado — Senado Notícias",
+    "description": "Estados, Distrito Federal e municípios deverão criar um plano de metas para o enfrentamento integrado da violência contra a mulher.",
+    "published_date": "2024-04-09T00:00:00Z",
+    "link": "https://www12.senado.leg.br/noticias/materias/2024/04/09/estados-e-cidades-terao-plano-de-combate-a-violencia-contra-mulher-aprova-senado",
+    "image_link": "https://i.postimg.cc/509dKfgR/imagem-materia.jpg"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 5,
+  "fields": {
+    "title": "Dia da Mulher é comemorado com programação gratuita do Sesc Ceará",
+    "description": "Em comemoração ao Dia Internacional da Mulher, oficializado pela Organização das Nações Unidas (ONU), e celebrado em 08 de março.",
+    "published_date": "2024-03-08T00:00:00Z",
+    "link": "https://www.sesc-ce.com.br",
+    "image_link": "https://www.sesc-ce.com.br/wp-content/uploads/2024/03/Dia-da-Mulher_Foto-Jr-Panela-e1709557863806.jpg"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 6,
+  "fields": {
+    "title": "MDIC e Ministério das Mulheres se unem para capacitar jovens mulheres em comércio exterior",
+    "description": "Acordo prevê incentivar e qualificar mulheres jovens de 15 a 29 anos em situação de vulnerabilidade para inserção qualificada no mercado, promovendo empoderamento econômico e social",
+    "published_date": "2024-04-03T17:30:00Z",
+    "link": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2024/abril/mdic-e-ministerio-das-mulheres-se-unem-para-capacitar-jovens-mulheres-em-comercio-exterior",
+    "image_link": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2024/abril/mdic-e-ministerio-das-mulheres-se-unem-para-capacitar-jovens-mulheres-em-comercio-exterior/53630250103_138b115b87_c.jpg/@@images/9b544b7e-53ff-4deb-8c09-162609e9d0c4.jpeg"
+  }
+},
+{
+  "model": "core.faqentry",
+  "pk": 1,
+  "fields": {
+    "question": "Como posso acessar os serviços oferecidos pela Secretaria das Mulheres?",
+    "answer": "Você pode acessar nossos serviços diretamente através do nosso site, onde você encontrará informações detalhadas sobre cada serviço disponível. Se precisar de assistência adicional, não hesite em entrar em contato conosco.",
+    "is_active": true,
+    "created_at": "2024-07-31T21:01:04.929Z",
+    "updated_at": "2024-07-31T21:01:04.929Z"
+  }
+},
+{
+  "model": "core.faqentry",
+  "pk": 2,
+  "fields": {
+    "question": "Quais são os horários de funcionamento dos serviços?",
+    "answer": "Os serviços estão disponíveis de segunda a sexta-feira, das 8h às 18h. Em casos de emergência, nossos canais de atendimento estão disponíveis 24 horas por dia.",
+    "is_active": true,
+    "created_at": "2024-07-31T21:01:04.929Z",
+    "updated_at": "2024-07-31T21:01:04.929Z"
+  }
+},
+{
+  "model": "core.faqentry",
+  "pk": 3,
+  "fields": {
+    "question": "Como posso fazer uma denúncia ou solicitar apoio?",
+    "answer": "Para fazer uma denúncia ou solicitar apoio, você pode preencher o formulário disponível em nosso site ou entrar em contato diretamente com um de nossos centros de apoio. As informações de contato estão disponíveis na seção 'Informações de Contato'.",
+    "is_active": true,
+    "created_at": "2024-07-31T21:01:04.929Z",
+    "updated_at": "2024-07-31T21:01:04.929Z"
+  }
+},
+{
+  "model": "core.faqentry",
+  "pk": 4,
+  "fields": {
+    "question": "Existe algum custo para utilizar os serviços?",
+    "answer": "Todos os serviços oferecidos pela Secretaria das Mulheres são gratuitos. Nosso objetivo é fornecer suporte e assistência sem nenhum custo para as mulheres que precisam.",
+    "is_active": true,
+    "created_at": "2024-07-31T21:01:04.929Z",
+    "updated_at": "2024-07-31T21:01:04.929Z"
+  }
+},
+{
+  "model": "core.faqentry",
+  "pk": 5,
+  "fields": {
+    "question": "Onde posso encontrar mais informações sobre eventos e campanhas?",
+    "answer": "Você pode encontrar informações sobre eventos e campanhas na nossa seção de Notícias, que é atualizada regularmente com as últimas iniciativas e eventos relevantes.",
+    "is_active": true,
+    "created_at": "2024-07-31T21:01:04.929Z",
+    "updated_at": "2024-07-31T21:01:04.929Z"
+  }
+}
+]
